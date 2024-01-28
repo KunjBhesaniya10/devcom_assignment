@@ -1,0 +1,321 @@
+<!--------------- NOTE :- at the last moment the animations in hobby section and contact section have some problem which were working 
+  fine before. it will show ONLY after a very little bit of SCROLL . I couldn't able to 
+rectify it due to time constraint. so please, note it. ----------->
+
+
+
+<!-- portfolio website using bootstrap5  ----------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/5df3de635e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg shadow pt-4 px-4 pb-1 fixed-top" id="navbar">
+    <div class="container-fluid">
+      <p class="navbar-brand">My Portfolio</p>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a type="button" class="nav-link px-4 montserrat-fonts" aria-current="page" href="#"><span
+                class="hobby">HOME</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 montserrat-fonts " href="#aboutme">ABOUT ME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 montserrat-fonts " href="#Skills">SKILLS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 montserrat-fonts " href="#achievements">ACHIEVEMENTS</a>
+          </li>
+          <li class="nav-item dropdown" id="navbardropdown">
+            <a class=" nav-link dropdown-toggle px-4 montserrat-fonts" id="drop" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              HOBBIES
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item montserrat-fonts nav-link" href="hobby1.html">TABLE TENNIS</a></li>
+              <li><a class="dropdown-item montserrat-fonts nav-link" href="hobby2.html">TRAVELLING & ADVENTURE</a></li>
+              <li><a class="dropdown-item montserrat-fonts nav-link" href="hobby3.html">LISTENING MUSIC</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4 montserrat-fonts " href="contactme.html">CONTACT ME </a>
+          </li>
+        </ul>
+
+      </div>
+      <ul class="social-media-icons">
+        <a href="https://www.instagram.com/kunj_b10?igsh=Y3BkOHQ3OTRuaW5z" target="_blank" class="nav-item"><i
+            class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/kunj.bhesaniya.9" target="_blank" class="nav-item"><i
+            class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/kunj-bhesaniya" target="_blank" class="nav-item"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a href="https://twitter.com/kunj_bhesaniya" target="_blank" class="nav-item"><i
+            class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.quora.com/profile/Kunj-Bhesaniya-3?ch=10&oid=2250484667&share=5563a250&srid=h6Hd27&target_type=user"
+          target="_blank" class="nav-item"><i class="fa-brands fa-quora"></i></a>
+      </ul>
+    </div>
+  </nav>
+  <br><br>
+
+  <!-- home page intro container-->
+
+  <div class="container-fluid py-1 mt-1 intro-head">
+    <div class="row pt-4">
+      <div class="col-lg-7 px-5 intro-col fadein_left_animate">
+        <p class="intro" id="intro-line"><span style="font-size: smaller;"> Hello, I'm</span><br><span
+            style="font-weight:600;"> Kunj Bhesaniya</p>
+        <br>
+        <pre> <i class="fa-solid fa-quote-left"></i>  I am a first year undergrad <br>in Computer Science and Engineering <br>at IIT Bombay  <i class="fa-solid fa-quote-right"></i></pre>
+        <br><br>
+
+      </div>
+      <div class="col-lg-5 px-5 align-self-end">
+        <img src="images/IMG-20231124-WA0053.png" class="img-fluid align-text-bottom " alt="myself" width="100%"></img>
+      </div>
+    </div>
+  </div>
+  <section class="aboutme" id="aboutme">
+    <br><br><br>
+
+    <!-- about me section-->
+    <div class="container-fluid titles px-5 poppins fadein_animate"><u> About Me</u></div>
+
+    <hr>
+    <br><br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 text-center align-self-center">
+          <img src="images/IMG20231223142041.jpg" class="img-fluid rounded img-aboutme fadein_animate" width="90%">
+        </div>
+        <div class="col-lg-7">
+          <div class="card mt-5 aboutme-card fadein_animate">
+            <p class="intro-content card-text fs-3 p-3 barlow">Welcome to my portfolio space! I'm Kunj Bhesaniya, an
+              18-year-old from Junagadh, Gujarat, currently pursuing Computer Science and Engineering at the esteemed
+              Indian Institute of Technology Bombay. As a first-year student, I'm eager to delve into the multifaceted
+              world of computer science. This platform is a glimpse into my academic journey and creative pursuits,
+              highlighting my commitment to learning and innovation. Looking forward to navigate in the dynamic
+              landscape of
+              academia and technology, driven by a genuine passion for understanding and contributing to the
+              ever-evolving field of computer science.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br>
+  </section>
+  <hr>
+  <!--skill section starts-->
+
+  <section id="Skills">
+    <br><br><br><br>
+    <div class="container text-center">
+      <p class="titles poppins fadein_animate"> SKILLS</p>
+    </div>
+    <br>
+    <div class="container skill-1 barlow fadein_left_animate" id="skill-1">
+      <div class="row">
+        <div class="col-lg-5 text-center">
+          <img src="images/c++icon.png" class="img-fluid my-3" style="height:200px">
+        </div>
+        <div class="col-lg-7 px-2 py-5 ">
+          Basic Syntax,
+          Arrays,
+          Conditional Statements,
+          canvas,
+          Data Types,
+          Functions,
+          Input and Output stream,
+          Loops,
+          Object-Oriented Programming (Basics
+          Constructors
+          Function Overriding
+          Inheritance
+          Polymorphism
+          Virtual Functions)
+          Operators Overloading,
+          Pointers,
+          string lib,
+          vector lib,
+          Dynamic memory management
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    <div class="container skill-1 barlow fadein_right_animate">
+      <div class="row">
+        <div class="col-lg-8 text-center html-skill">
+          <img src="images/html-icon.png" class="img-fluid my-3" style="height:200px">
+          <img src="images/css-icon.png" class="img-fluid my-3" style="height:200px">
+        </div>
+        <div class="col-lg-4 py-5 px-2">
+          HTML Elements,
+          Attributes,
+          Form,
+          Table,
+          Links,
+          Favicon,
+          Responsive Design,
+          CSS Basic styles,
+          Box-Model,
+          Mouse Effects,
+          Transitions,
+          Animation,
+          Pseudo-Class,
+          Media Queries
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Skills-2">
+    <br>
+    <div class="container skill-1 fadein_left_animate">
+      <div class="row">
+        <div class="col-lg-5 text-center barlow">
+          <img src="images/js-icon.png" class="img-fluid my-3" style="height:200px">
+        </div>
+        <div class="col-lg-7 px-2 py-5">
+          Javascript Basics ( variables, Operators, Declarations, arithmetic, data types etc),
+          Conditional Statements,
+          loops,
+          Functions,
+          String and it's methods,
+          Array and it's methods,
+          set and maps,
+          Object,
+          Class,
+          Event-Handling,
+          Document Object Model
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    <div class="container skill-1 fadein_right_animate">
+      <div class="row">
+        <div class="col-lg-5 text-center barlow">
+          <img src="images/267_Python-512.webp" class="img-fluid my-3" style="height:200px">
+        </div>
+        <div class="col-lg-7 py-5">
+          Python Basic ( syntax, data types, variables, casting, string,Operators),
+          List,
+          Tuples,
+          Dict,
+          sets,
+          loops and their methods,
+          string and it's methods,
+          iterators,
+          Class and Object,
+          Inheritance,
+          Polymorphism
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <br><br>
+    <br><br><br>
+  </section>
+
+  <!--achievements and results goes here-->
+  <hr>
+  <section id="achievements">
+    <br><br><br><br>
+    <div class="container text-center fadein_animate">
+      <p class="titles poppins fadein_animate">Achievements & Results</p>
+      <br><br>
+    </div>
+
+    <div class="container fs-5 barlow fadein_animate" style="width:70%">
+      <p style="font-weight: 600;">my major Achievements in last 4-5 years are:</p>
+      <br>
+      <div class="card achiv">
+        <ol style="list-style-position: inside;" class="">
+          <li> AIR 49 in JEE Advanced 2023. marks:301/360</li>
+
+          <li>AIR 126 in JEE Mains 2023. marks: 280/300</li>
+
+          <li>selected for INPHO & INCHO 2023</li>
+
+          <li>CBSE 12th board: 96% ( khyati world school,Ahmedabad )</li>
+
+          <li>CBSE 10th board: 95.4% ( JNV Gir somnath)</li>
+
+          <li>Under-14 Table tennis national in inter-NVS 2019 </li>
+
+        </ol>
+      </div>
+    </div>
+    </div>
+    <br><br>
+  </section>
+
+  <!------------- footer section ----------------->
+
+  <footer class="container-fluid shadow pt-3 pb-5 border-top text-center justify-content-center barlow">
+
+    <br>
+
+    <a class="nav-item social-media" target="_blank" href="https://www.instagram.com/kunj_b10?igsh=Y3BkOHQ3OTRuaW5z"><i
+        class="fa-brands fa-instagram"></i></a>
+    <a class="nav-item social-media" target="_blank" href="https://www.facebook.com/kunj.bhesaniya.9"><i
+        class="fa-brands fa-facebook"></i></a>
+    <a class="nav-item social-media" target="_blank" href="https://www.linkedin.com/in/kunj-bhesaniya"><i
+        class="fa-brands fa-linkedin"></i></a>
+    <a class="nav-item social-media" target="_blank" href="https://twitter.com/kunj_bhesaniya"><i
+        class="fa-brands fa-twitter"></i></a>
+    <a class="nav-item social-media" target="_blank"
+      href="https://www.quora.com/profile/Kunj-Bhesaniya-3?ch=10&oid=2250484667&share=5563a250&srid=h6Hd27&target_type=user"><i
+        class="fa-brands fa-quora"></i></a>
+
+
+    <br>
+    &#169 kunj bhesaniya 2024<br>
+    all rights reserved.
+
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

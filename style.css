@@ -1,0 +1,430 @@
+
+
+.montserrat-fonts{                                              /*fonts*/
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .barlow {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* navbar style ------>*/
+
+body{
+    background-color: #fafafc;
+}
+.navbar{
+    padding-bottom: 0;
+    background-color:#fafafc;
+    font-size:large;
+}
+.navbar-brand{
+    font-weight: 900;
+    font-size: x-large;
+    margin-right: 5%;
+    color:black !important;
+}
+   
+.nav-link{
+    color:black;
+    font-weight: 700;
+    text-align: center;
+}
+.social-media-icons
+   {
+    list-style-type: none !important;
+    display: flex;
+    width:20%;
+    justify-content:space-evenly;
+     }
+ a{ color:black;}
+
+.nav-link:hover{
+    color:white;
+    border-radius: 4px;
+    background-color: black;
+}
+ .nav-link.show:hover{
+    color:white !important;
+}
+.row{
+    padding-right:0;
+}
+
+/* intro-main home page style-------------->*/
+.intro-head{
+    background-color: /*#3AAFA9*/#F1CF54;
+    background-image: url("images/Background-main.png");
+    background-size: cover;
+}
+.intro{
+    font-size: 80px;
+    padding-top: 20%;
+    padding-left:10%;
+}
+.intro-col>pre{
+   font-size: 30px;
+    font-family:sans-serif ;
+    padding-left: 10%;
+}
+
+.intro-content{
+   /* font-size:24px;*/
+    margin : 0 5%;
+}
+
+/* aboutme section style--------->*/
+
+.aboutme{
+    background-image: url("images/bg-3.png");
+    background-size: cover;
+}
+.img-aboutme{
+    box-shadow: 4px 4px 18px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 4px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 18px 0px rgba(0,0,0,0.75);
+}
+
+/*---------skill-section-style--------------->*/
+
+.skill-1{
+    box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.69);      /*shadow----*/
+-webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.69);
+-moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.69);
+transition: scale 0.6s;
+border-radius: 10px ;
+animation: fromleft 1s;
+background-color:white;
+width:60%;
+font-size: 20px;
+}
+.skill-1:hover{
+    scale:1.05;  /* hover on skills div*/
+}
+
+#Skills {
+    background-image: url("images/1.png");
+    background-size: cover;
+    background-repeat:none;
+}
+.Skills-2{
+    background-image: url("images/2.png");
+    background-size:cover;
+    background-size: none;
+
+}
+
+/* achievements section-------------------*/
+
+.achiv>ol>li{
+    padding:1.5% 0;
+}
+
+#achievements {
+    background-image: url("images/bg-achivn.png");
+    background-size: cover;
+    background-repeat: none;
+}
+/*footer*/
+
+footer{
+    font-size: large;
+}
+.social-media
+  {
+    list-style-type: none !important;
+    display: inline-block;
+    margin : 1% 1%;
+  }
+
+/* table tennis hobby----------------*/
+.tt-title {
+    font-size: 70px;
+}
+
+.table-tennis-content{
+    margin-top: 20%;
+    border-left: 2px solid black;
+    padding-left: 3%;
+}
+.tt-img{
+    border-radius: 10px;  /*img thumbnail is  set*/
+    transition: scale 0.5s;
+}
+.tt-img:hover{
+    scale:1.05
+}
+.tt {
+    background-image: url("images/TT-bg.png");
+    background-size:cover;
+    background-repeat:none;
+}
+/*hobby-2-------------->*/
+.hobby2-main{
+    border: 4px solid black;
+     border-radius : 10px;
+}
+     .carousel {
+        width:60%;
+       
+    }
+    .hobby2-title {
+        font-size: 70px;
+    }
+    .hobby2-content {
+        background-image: url("images/trip-bg.png");
+        background-size:cover;
+        background-color:none;
+    }
+   
+.hobby2-img-sec{
+    background-image: url("images/bg-6.png");
+    background-size:cover;
+}
+
+/* listening to music hobby-----------------*/
+
+.img-music:hover{
+    scale:1.05;
+}
+.img-music {
+    transition: scale 0.6s;
+    border-radius : 10px;
+}
+.hobby3 {
+    background-image: url("images/bg-2n.png");
+    background-size: cover;
+    
+}
+.img-music {
+border: 4px solid black;
+
+}
+
+/* all main titles ---------------------*/
+.titles{
+    font-size: 65px;
+    text-decoration: underline;
+    color: black;
+}
+
+
+/*contact me */
+
+.contactme {
+    background-image: url("images/bg-contact.png");
+    background-size: cover;
+}
+
+/*animations---------------------------------*/
+@media (min-width:1024px) {
+.fadein_right_animate {
+    position: relative;
+    transform: translateX(300px);
+    opacity:1;
+    transition: 1.0s ease-in-out;
+}
+.fadein_left_animate {
+    position: relative;
+    transform:translateX(-300px);
+    opacity:1;
+    transition: 1.0s ease-in-out;
+}
+}
+@media (min-width:500px) and (max-width:1024px) {
+    .fadein_right_animate {
+        position: relative;
+        transform: translateX(100px);
+        opacity:1;
+        transition: 1.0s ease-in-out;
+    }
+    .fadein_left_animate {
+        position: relative;
+        transform:translateX(-100px);
+        opacity:1;
+        transition: 1.0s ease-in-out;
+    }
+    }
+
+    @media (max-width: 500px) and (min-width: 428px) {
+        .fadein_right_animate {
+            position: relative;
+            transform: translateX(60px);
+            opacity:1;
+            transition: 1.0s ease-in-out;
+        }
+        .fadein_left_animate {
+            position: relative;
+            transform:translateX(-60px);
+            opacity:1;
+            transition: 1.0s ease-in-out;
+        }
+    }
+    @media ( max-width:428px){
+        .fadein_right_animate {
+            position: relative;
+            transform: translateX(20px);
+            opacity:1;
+            transition: 1.0s ease-in-out;
+        }
+        .fadein_left_animate {
+            position: relative;
+            transform:translateX(-20px);
+            opacity:1;
+            transition: 1.0s ease-in-out;
+        }
+    }
+.fadein_animate{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1.0s ease-out;
+  }
+  .fadein_top_animate{
+    position: relative;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: 1.0s ease-out;
+  }
+  .fadein_animate.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .fadein_left_animate.actives{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .fadein_right_animate.actives-1{
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .fadein_top_animate.actives-2{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+/* all media queries for responsiveness---------------*/
+
+
+@media (max-width:375px) {
+    .titles{
+        font-size:30px !important;
+    }
+}
+@media (max-width:500px) {
+    .intro{
+        font-size:47px;
+        text-align: center;
+    }
+    .titles{
+        font-size: 40px;
+    }
+}
+@media(min-width:425px) and (max-width:500px){
+    .intro-col>pre{
+        font-size: medium;
+        text-align: center;
+    }
+   
+}
+@media (min-width:500px) and (max-width:850px) {   /*for homepage intro*/
+    .intro{
+        padding-left:0;
+        padding-right:0;
+        text-align:center;
+        font-size: 57px;
+    }
+    .img{
+        margin-top:15%;
+    }
+    .titles{ 
+        font-size: 50px;
+    }
+}
+@media (max-width:768px)          /* for hobby-1 and hobby-2 img size and title font-size*/
+{
+    .tt-title{
+        font-size: 40px;
+    }
+    .tt-title > img {
+        width:100px;
+    }
+    .carousel{
+        width:90% !important;
+    }
+    .hobby2-content {
+        background-image: none !important;
+    }
+}
+
+
+@media (min-width:930px){
+    .form-control{
+        width:57%;
+    }
+    .form{
+        padding-left: 25%;
+    }
+}
+
+@media(max-width:425px){
+    .intro-col>pre {
+            font-size:15px;
+            text-align: center;
+    }
+    .skill-1 {
+        width:90% !important;
+    }
+
+    
+}
+@media (min-width:1024px) {
+    .hobby2-main{
+        width:80%;
+        margin-left: 10%;
+    }
+}
+@media (max-width:1070px) and (min-width:992px){
+    .html-skill>img{
+        width:170px;
+        height: 170px !important;
+    }
+}
+@media (max-width:1200px) {
+    .social-media-icons {
+        display: none;
+    }
+}
+@media (max-width:992px) {
+
+    .table-tennis-content{
+        border: 2px solid black;
+        border-radius: 10px;
+        padding:10px 10px;
+        box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.69);
+        -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.69);
+        -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.69);
+    }
+    .tt{
+        background-image: none;
+    }
+    .hobby2-main{
+        box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.69);
+        -webkit-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.69);
+        -moz-box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.69);
+        
+    }
+}
+
+
